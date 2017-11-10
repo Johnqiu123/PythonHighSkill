@@ -1,0 +1,13 @@
+ccollections
+deque
+p0
+((lp1
+I100
+aI95
+aI91
+aI90
+aI75
+aI5
+tp2
+Rp3
+.
