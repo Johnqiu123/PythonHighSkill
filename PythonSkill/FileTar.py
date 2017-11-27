@@ -15,9 +15,9 @@ def tarXML(tfname):
     tf = tarfile.open(tfname, 'w:gz')
     for fname in os.listdir('Data'):
         print fname
-        if fname.endswith('.txt'):
-            tf.add(fname)
-            os.remove(fname)
+        if fname.endswith('.xml'):
+            tf.add('Data/' + fname)
+            os.remove('Data/'+ fname)
     tf.close()
     
     if not tf.members:
