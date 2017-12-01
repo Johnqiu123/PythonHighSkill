@@ -66,13 +66,13 @@ wc = WordCloud(font_path=font_path,  # 设置字体
                )
 
 
-
+# 添加自己的词典
 add_word(my_words_list)
 
 text = open(path.join(d, text_path)).read()
 
 
-
+# 中文调用
 if isCN:
     text = jiebaclearText(text)
 
